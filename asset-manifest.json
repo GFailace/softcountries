@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/softcountries/static/js/main.d4455552.chunk.js",
+    "main.js.map": "/softcountries/static/js/main.d4455552.chunk.js.map",
+    "runtime-main.js": "/softcountries/static/js/runtime-main.34db2c7b.js",
+    "runtime-main.js.map": "/softcountries/static/js/runtime-main.34db2c7b.js.map",
+    "static/css/2.0ce74623.chunk.css": "/softcountries/static/css/2.0ce74623.chunk.css",
+    "static/js/2.9f3e868e.chunk.js": "/softcountries/static/js/2.9f3e868e.chunk.js",
+    "static/js/2.9f3e868e.chunk.js.map": "/softcountries/static/js/2.9f3e868e.chunk.js.map",
+    "index.html": "/softcountries/index.html",
+    "static/css/2.0ce74623.chunk.css.map": "/softcountries/static/css/2.0ce74623.chunk.css.map",
+    "static/js/2.9f3e868e.chunk.js.LICENSE.txt": "/softcountries/static/js/2.9f3e868e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34db2c7b.js",
+    "static/css/2.0ce74623.chunk.css",
+    "static/js/2.9f3e868e.chunk.js",
+    "static/js/main.d4455552.chunk.js"
+  ]
+}
