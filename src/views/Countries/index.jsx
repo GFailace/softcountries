@@ -18,12 +18,12 @@ const [searchTerm, setSearchTerm] = useState('')
 const [filteredCountriesData, setFilteredCountriesData] = useState([])
 
 
-const { error, loading, data } = useQuery(COUNTRIES)
+const { data } = useQuery(COUNTRIES)
 
 useEffect(() => {    
     const arrayData = [data?.Country]
     setCountriesData(arrayData[0])    
-}, [data])
+}, [data, setCountriesData])
 
 
 const handleSearch = async (input) => {

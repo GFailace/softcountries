@@ -19,12 +19,12 @@ const[visible, setVisible] = useState(false)
 
 const param = window.location.pathname.split('/').slice(1);
 
-const { error, loading, data } = useQuery(COUNTRY_DETAILS,{ variables: {country_id : param.toString()} })
+const { data } = useQuery(COUNTRY_DETAILS,{ variables: {country_id : param.toString()} })
 
 useEffect(() => {    
   const arrayData = [data?.Country[0]]
   setCountryData([[arrayData][0][0]])    
-}, [data])
+}, [data, setCountryData])
 
 const layout = {
   labelCol: { span: 8 },
