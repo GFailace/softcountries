@@ -8,8 +8,8 @@ import CountryDetails from "../views/Countries/Details";
 const Routers = () => (
   <BrowserRouter>
     <Routes>
-      <Route exact={true} path="/" element={<Countries />} />
-      <Route path="/:country" element={<CountryDetails />} />
+      <Route path="/" element={<Countries />} />
+      <Route path="/:id" element={<CountryDetails />} />
     </Routes>
   </BrowserRouter>
 );

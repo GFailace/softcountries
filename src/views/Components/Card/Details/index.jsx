@@ -1,6 +1,6 @@
 import {Card} from 'antd'
 
-export const CardDetails = ({area, capital, flag, map, name, population}) => {
+export const CardDetails = ({area, capital, domain, flag, name, population}) => {
 
     return (
         <Card style={{textAlign: 'center'}}>
@@ -9,17 +9,7 @@ export const CardDetails = ({area, capital, flag, map, name, population}) => {
             <p>Capital - {capital}</p>
             <p>Area - {area}km²</p>
             <p>Population - {population}M</p>
-            <iframe 
-            title={name}
-            src={map}
-            width="100%"
-            height="450"
-            style={{ border: 0 }}
-            loading="lazy"
-            allowFullScreen=""
-            aria-hidden="false"
-            tabIndex="0"
-            />
+            <p>Top Level Domain - {domain}</p>            
         </Card>
     )
 }
