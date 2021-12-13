@@ -32,10 +32,7 @@ const handleSearch = async (input) => {
     })
     setSearchTerm(input ? input : '');
     setFilteredCountriesData(filter);
-} 
-
-console.log(countriesData)
-    
+}     
 
 return(
     <>
